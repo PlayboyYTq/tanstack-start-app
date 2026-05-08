@@ -1,0 +1,46 @@
+{
+  "name": "Circle — Real-time Messaging",
+  "short_name": "Circle",
+  "description": "Modern minimal real-time chat. Sign up, find friends, and message instantly.",
+  "id": "/?source=pwa",
+  "start_url": "/chats?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["social", "communication"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open chats",
+      "short_name": "Chats",
+      "description": "Jump into your conversations",
+      "url": "/chats?source=shortcut",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Find friends",
+      "short_name": "Friends",
+      "description": "Add or search friends",
+      "url": "/chats?panel=friends&source=shortcut",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Profile",
+      "short_name": "Profile",
+      "description": "Your account",
+      "url": "/profile?source=shortcut",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
